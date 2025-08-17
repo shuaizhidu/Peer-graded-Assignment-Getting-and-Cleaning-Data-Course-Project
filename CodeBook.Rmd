@@ -1,0 +1,14 @@
+# CodeBook
+
+This code book describes the variables in `tidyData.txt`.
+
+- `SubjectNo`: The ID of the test subject (1–30).
+- `Activity`: The activity performed (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING).
+- Remaining variables: The average of each mean and standard deviation measurement, grouped by subject and activity.
+
+Variable names are descriptive, expanded from the original dataset:
+- `Time` prefix = time domain signal
+- `Frequency` prefix = frequency domain signal
+- `Accelerometer` = accelerometer data
+- `Gyroscope` = gyroscope data
+- `Magnitude` = magnitude of the signals

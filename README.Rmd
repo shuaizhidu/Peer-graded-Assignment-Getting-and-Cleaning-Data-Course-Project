@@ -1,0 +1,18 @@
+# Getting and Cleaning Data Project
+
+This repo contains the R script and documentation for the Coursera *Getting and Cleaning Data* final project.
+
+## Files
+
+- `run_analysis.R`: Script that downloads, cleans, and processes the UCI HAR Dataset into a tidy dataset.
+- `tidyData.txt`: Output tidy dataset (created by `run_analysis.R`).
+- `CodeBook.md`: Describes the variables, the data, and transformations performed.
+- `README.md`: This file, explaining the repo contents.
+
+## How to Run
+
+1. Clone this repo.
+2. Make sure you have R installed with the `data.table` and `reshape2` packages.
+3. Place the UCI HAR dataset in your working directory (or let the script download it).
+4. Run `source("run_analysis.R")`.
+5. The tidy dataset will be written to `tidyData.txt` in your working directory.
